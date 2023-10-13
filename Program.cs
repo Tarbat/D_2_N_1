@@ -22,6 +22,7 @@ class HelloWorld
         int M = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("K - Position: ");
         int K = Convert.ToInt32(Console.ReadLine());
+        Array.Resize(ref num, N+K);
 
         Console.WriteLine("input");
         for (int i = K; i < M+K; i++)
